@@ -1,0 +1,27 @@
+body {
+    font: 12pt Arial;
+    text-align: center;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+button {
+    font-size: 12pt;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border-color: blueviolet ;
+}
