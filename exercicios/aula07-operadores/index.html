@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+</head>
+<body>
+    <header>
+        <h1>OPERADORES</h1>
+    </header>
+
+    <button onclick="operacao()">OPERAÇÃO</button>
+
+    <script>
+        function operacao() {
+            var nome = prompt('Digite seu nome:')
+            var idade = Number(prompt(`${nome}, informe sua idade:`))
+            var ano_nascimento = 2024 - idade
+            alert(`${nome}, você nasceu em ${ano_nascimento}?`)
+        }
+    </script>
+</body>
+</html>

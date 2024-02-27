@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>DOM</h1>
+    </header>
+
+    <main>
+        <p>Aqui vai o resultado!</p>
+        <p>Aprendendo <strong>DOM</strong> em JavaScript</p>
+    </main>
+
+    <div id="msg">Clique em mim!!!</div>
+
+    <script>
+        var paragrafo1 = document.getElementsByTagName('p')[0]
+        var paragrafo2 = document.getElementsByTagName('p')[1]
+        document.write(`No 1° parágrafo está escrito assim "${paragrafo1.innerText}"`)
+        document.write(`<br>No 2° parágrafo está escrito "${paragrafo2.innerHTML}"`)
+
+        var msg = document.querySelector('div#msg')
+        msg.style.background = "green"
+    </script>
+</body>
+</html>
