@@ -17,6 +17,17 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#txtn {
+    width: 80px;
+}
+
+#seltab {
+    width: 110px;
 }
 
 footer {

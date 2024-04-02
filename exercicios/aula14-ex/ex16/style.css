@@ -19,6 +19,10 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
+#txtnumb, #txtincre {
+    width: 80px;
+}
+
 footer {
     color: #fff;
     text-align: center;
