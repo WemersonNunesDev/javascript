@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+
+    <link rel="stylesheet" href="../modelo/assets/css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1> Tabela IMC</h1>
+
+        <p>Taxa de IMC e o que siguinifica.</p>
+
+        <ul>
+            <li>Próximo ou abaixo 16</li>
+            <li>Menor que 18,5</li>
+            <li>Entre 18,5 à 25 </li>
+            <li>Acima de 25</li>
+            <li>Próximo ou acima de 40</li>
+            <li>Subpeso Severo</li>
+            <li>Subpeso</li>
+            <li>Normal</li>
+            <li>Sobrepeso</li>
+            <li>Sobrepeso Severo</li>
+        </ul>
+
+        <form class="formulario">
+            <label for="teste-3">Peso</label>
+            <input class="item-form" type="number" id="peso">
+
+            <label for="teste-4">Altura</label>
+            <input class="item-form" type="number" id="altura">
+
+
+            <button class="btn-enviar" type="number" onclick="calcularImc()">Enviar</button>
+
+            <div class="resultado"></div>
+        </form>
+    </section>
+
+    <script src="../modelo/assets/js/main.js"></script>
+</body>
+
+</html>

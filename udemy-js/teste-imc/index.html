@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+</head>
+<body>
+    <main id="conteudo">
+        <section class="imc-user">
+            <h1>IMC</h1>
+            <h2>Tabela</h2>
+            <ul>
+                <li>Entre 18.5 e 25</li>
+                <li>Entre 16 e 18.5</li>
+                <li>Entre 25 e 40</li>
+                <li>Normal</li>
+                <li>Subpeso</li>
+                <li>Sobrepeso</li>
+            </ul>
+            <form class="form">
+                <label for="peso">Peso</label>
+                <input class="item-form" type="number" id="peso">
+
+                <label for="altura">Altura</label>
+                <input class="item-form" type="number" id="altura">
+
+                <input type="button" class="item-form btn" onclick="calcular()" value="CALCULAR"></input>
+            </form>
+
+            <div class="resultado"></div>
+        </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

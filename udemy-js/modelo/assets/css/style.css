@@ -1,0 +1,81 @@
+:root {
+    --cor-primaria: #669fb9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    margin-block: 8%;
+    border-radius: 0.75rem;
+}
+
+.container p {
+    padding-block: 1rem;
+}
+
+ul {
+    columns: 2;
+    list-style-type: none;
+    padding-block: 1rem;
+}
+
+ul > li {
+    padding: 0.5rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario>.item-form,
+.btn-enviar {
+    margin-block: 1rem;
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+
+.formulario>.item-form {
+    border: 1px solid #0000007a;
+    width: 64%;
+}
+
+.formulario>.btn-enviar {
+    width: 24%;
+    border: none;
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: #0064c2;
+    color: #f1f1f1;
+    font-size: 1.25rem;
+}
+
+.formulario>.btn-enviar:hover {
+    cursor: pointer;
+    background-color: #1371c9;
+    color: #eeeeee;
+}
+
+.resultado {
+    padding: 1rem;
+    background-color: #379c5e;
+    border-radius: 4px;
+}
