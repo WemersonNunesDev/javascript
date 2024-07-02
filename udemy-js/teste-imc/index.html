@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC</title>
 
     <link rel="stylesheet" href="./assets/css/estilo.css">
+    <link rel="stylesheet" href="./assets/css/responsivo.css">
 </head>
+
 <body>
     <main id="conteudo">
         <section class="imc-user">
@@ -27,13 +30,13 @@
                 <label for="altura">Altura</label>
                 <input class="item-form" type="number" id="altura">
 
-                <input type="button" class="item-form btn" onclick="calcular()" value="CALCULAR"></input>
+                <button class="item-form btn" id="btn-calcular">CALCULAR</button>
             </form>
-
             <div class="resultado"></div>
         </section>
     </main>
 
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
