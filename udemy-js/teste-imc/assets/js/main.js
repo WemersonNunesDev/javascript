@@ -18,11 +18,11 @@ calcular.addEventListener('click', () => {
 
     res.innerHTML = `Seu IMC é de ${imc}.`
 
-    if(imc >= 16 && imc <= 18.4) {
+    if (imc >= 16 && imc <= 18.4) {
         res.innerHTML += ` <strong>Subpeso</strong>. Seu peso ideal é ${pesoIdeal}kg`
-    } else if(imc >= 18.5 && imc <= 25) {
+    } else if (imc >= 18.5 && imc <= 25) {
         res.innerHTML += ' <strong>Normal</strong>.'
-    } else if(imc >= 25.5 && imc <= 40) {
+    } else if (imc >= 25.5 && imc <= 40) {
         res.innerHTML += ` <strong>Sobrepeso</strong>. Seu peso ideal é ${pesoIdeal}kg`
     }
 })

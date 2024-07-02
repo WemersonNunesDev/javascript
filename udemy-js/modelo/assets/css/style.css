@@ -37,28 +37,31 @@ ul {
     padding-block: 1rem;
 }
 
-ul > li {
+ul>li {
     padding: 0.5rem;
 }
 
-.formulario {
+#form {
     display: flex;
     flex-direction: column;
 }
 
-.formulario>.item-form,
+#form>.label-form {
+    padding-top: 1rem;
+}
+
+#form>.item-form,
 .btn-enviar {
     margin-block: 1rem;
     padding: 0.5rem;
     border-radius: 3px;
 }
 
-.formulario>.item-form {
+#form>.item-form {
     border: 1px solid #0000007a;
-    width: 64%;
 }
 
-.formulario>.btn-enviar {
+#form>.btn-enviar {
     width: 24%;
     border: none;
     padding: 1rem;
@@ -68,14 +71,19 @@ ul > li {
     font-size: 1.25rem;
 }
 
-.formulario>.btn-enviar:hover {
+#form>.btn-enviar:hover {
     cursor: pointer;
     background-color: #1371c9;
     color: #eeeeee;
 }
 
-.resultado {
+.paragrafo-resultado,
+.bad {
+    background-color: #82ff93;
     padding: 1rem;
-    background-color: #379c5e;
-    border-radius: 4px;
+    border-radius: 6px;
+}
+
+.bad {
+    background-color: #f37272;
 }

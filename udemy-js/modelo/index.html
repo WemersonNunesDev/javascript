@@ -4,42 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo</title>
+    <title>Calcule seu IMC</title>
 
     <link rel="stylesheet" href="../modelo/assets/css/style.css">
 </head>
 
 <body>
     <section class="container">
-        <h1> Tabela IMC</h1>
+        <h1>Calcule seu IMC</h1>
 
-        <p>Taxa de IMC e o que siguinifica.</p>
+        <form action="/" method="post" id="form">
+            <label class="label-form" for="peso">Peso</label>
+            <input class="item-form" type="text" name="peso" id="peso">
 
-        <ul>
-            <li>Próximo ou abaixo 16</li>
-            <li>Menor que 18,5</li>
-            <li>Entre 18,5 à 25 </li>
-            <li>Acima de 25</li>
-            <li>Próximo ou acima de 40</li>
-            <li>Subpeso Severo</li>
-            <li>Subpeso</li>
-            <li>Normal</li>
-            <li>Sobrepeso</li>
-            <li>Sobrepeso Severo</li>
-        </ul>
+            <label class="label-form" for="altura">Altura</label>
+            <input class="item-form" type="text" name="altura" id="altura">
 
-        <form class="formulario">
-            <label for="teste-3">Peso</label>
-            <input class="item-form" type="number" id="peso">
-
-            <label for="teste-4">Altura</label>
-            <input class="item-form" type="number" id="altura">
-
-
-            <button class="btn-enviar" type="number" onclick="calcularImc()">Enviar</button>
-
-            <div class="resultado"></div>
+            <button class="btn-enviar" type="submit">Enviar</button>
         </form>
+
+        <div class="resultado"></div>
     </section>
 
     <script src="../modelo/assets/js/main.js"></script>
