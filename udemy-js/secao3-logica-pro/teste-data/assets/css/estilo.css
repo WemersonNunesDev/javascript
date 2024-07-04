@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0e0e0e;
+    color: #d14200;
+}
+
+#conteudo {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.resultado {
+    background-color: #fefefe;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-block: 10rem;
+    font-size: 1.5rem;
+}
