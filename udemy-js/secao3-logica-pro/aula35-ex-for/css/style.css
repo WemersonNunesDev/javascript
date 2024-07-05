@@ -1,0 +1,35 @@
+:root {
+    --cor-primaria: #669fb9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#conteudo {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    margin-block: 8%;
+    border-radius: 0.75rem;
+}
+
+#conteudo p,
+div,
+section,
+footer {
+    padding-block: 0.5rem;
+}
