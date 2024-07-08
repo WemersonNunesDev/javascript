@@ -1,0 +1,22 @@
+@media (max-width: 1950px) {
+    #conteudo {
+        width:40%;
+    }
+}
+@media (max-width: 1570px) {
+    #conteudo {
+        width:72%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #conteudo {
+        width: 80%;
+    }
+}
+
+@media (max-width: 980) {
+    #conteudo {
+        width: 88%;
+    }
+}
