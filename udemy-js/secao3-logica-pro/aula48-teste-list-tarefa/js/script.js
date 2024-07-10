@@ -3,17 +3,16 @@ const btnAdd = document.querySelector('.btn');
 const lista = document.querySelector('.lista');
 const btnApagar = document.querySelector('.apagar');
 
+// cria o elemento <li> para ser adicionado a lista
 function itemList() {
     const li = document.createElement('li');
     return li;
 }
 
 inputTarefa.addEventListener('keypress', function (e) {
-    // console.log(e);
     if(e.keyCode === 13) {
         if (!inputTarefa.value) return;
         postTarefa(inputTarefa.value);
-        // console.log('ENTER presionado.');
     }
 });
 
@@ -26,14 +25,14 @@ function btnDelete(li) {
     li.innerText += ' ' 
     const textBtnDelete = document.createElement('button');
     textBtnDelete.innerText = 'APAGAR';
-    // textBtnDelete.classList.add('apagar');
     textBtnDelete.setAttribute('class', 'apagar');
     li.appendChild(textBtnDelete);
 }
 
+// Cria o item
 function postTarefa(textoInput) {
     const li = itemList();
-    li.innerText = textoInput;
+    li.innerText = textoInput; // adiciona o valor do input a função itemList() -> função que cria o <li> 
     lista.appendChild(li);
     cleanInput();
     btnDelete(li);

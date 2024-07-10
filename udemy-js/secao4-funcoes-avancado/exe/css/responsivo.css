@@ -1,0 +1,13 @@
+@media(max-width: 1980px) {
+    .registrar-produto > .nome-de-produto {
+        width: 48%;
+    }
+    
+}
+
+@media(max-width: 1520px) {
+    .registrar-produto > .nome-de-produto {
+        width: 72%;
+    }
+    
+}
