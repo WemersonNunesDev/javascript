@@ -1,0 +1,48 @@
+@media(max-width: 1950px) {
+    #conteudo {
+        width: 88dvh;
+    }
+}
+
+@media(max-width: 1510px) {
+    #conteudo {
+        width: 80dvh;
+    }
+}
+
+@media(max-width: 1020px) {
+    #conteudo {
+        width: 72dvh;
+    }
+}
+
+@media(max-width: 800px) {
+    #conteudo {
+        width: 64dvh;
+    }
+}
+
+@media(max-width: 650px) {
+    #conteudo {
+        width: 56dvh;
+    }
+}
+
+@media(max-width: 580px) {
+    #conteudo {
+        width: 48dvh;
+    }
+
+    .area-calc>.calculadora {
+        width: 40dvh;
+    }
+
+    .display {
+        width: 98%;
+    }
+
+    .btn {
+        width: 100%;
+        height: 40px;
+    }
+}

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0b0e14;
+}
+
+p {
+    padding-block: 2rem;
+}
+
+#conteudo {
+    margin: auto;
+}
+
+.area-calc {
+    padding: 1rem;
+    background-color: #f2f7ff;
+    align-content: center;
+    margin-block: 10rem;
+}
+
+.area-calc > h1 {
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.area-calc > .calculadora {
+    width: 48dvh;
+}
+
+.display {
+    text-align: right;
+    padding: 0.25rem;
+    width: 98%;
+    font-size: 2rem;
+    background-color: #fff;
+    border: 1px solid #0b0e14;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    border: none;
+    width: 100%;
+    height: 48px;
+    background-color: #bebebe;
+    color: #0b0e14;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #596f9c;
+    color: #ffffff;
+}
