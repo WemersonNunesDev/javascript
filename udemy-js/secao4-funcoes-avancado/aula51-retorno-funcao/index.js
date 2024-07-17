@@ -5,6 +5,7 @@ function pessoa(nome, sobrenome) {
 }
 const p1 = pessoa('Marcos', 'Otávio');
 console.log(p1);
+console.log(p1.nome, p1.sobrenome);
 
 // ####################################
 function falaFrase(comeco) {

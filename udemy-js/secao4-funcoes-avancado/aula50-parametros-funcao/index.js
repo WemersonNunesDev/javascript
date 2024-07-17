@@ -12,22 +12,22 @@ funcao(1, 2, 3, 4, 5, 6, 7);
 
 
 // #################################
-function funcao(a, b, c, d, e, f) {
+function funcao1(a, b, c, d, e, f) {
     console.log(a, b, c, d, e, f)
 };
-funcao(1, 2, 3);
+funcao1(1, 2, 3);
 
 // #################################
-function funcao(a, b = 2, c = 4) {
+function funcao2(a = 0, b = 2, c = 4) {
     console.log(a + b + c)
 };
-funcao();
+funcao2();
 
 // #################################
-function funcao([valor1, valor2, valor3]) {
+function funcao3([valor1, valor2, valor3]) {
     console.log(valor1, valor2, valor3)
 };
-funcao(['Wemerson', 'Nunes', 24]);
+funcao3(['Wemerson', 'Nunes', 24]);
 
 // #################################
 const conta1 = function(operador, acumulador, ...numeros) {

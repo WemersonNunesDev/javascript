@@ -1,4 +1,4 @@
-//  Aula 49 - As várias maneiras de declarar dunções em JavaScript
+//  Aula 49 - As várias maneiras de declarar funções em JavaScript
 
 // Declaração de função (function hoisting)
 falaOi();
