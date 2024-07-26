@@ -17,9 +17,12 @@ resultado > 9 = 0
 
 */
 
-let cpf = '705.484.450-52';
-let cpfJustNumbers = cpf.replace(/\D+/g, '');
-let arrayCpf = Array.from(cpfJustNumbers);
-let cal = arrayCpf.reduce((ac, val) => ac + Number(val), 0);
+function ValidaCpf (cpfEnviado) {
+    Object.defineProperty(this, 'cpfLimpo', {
+        enumerable: true,
+        get: () => cpfEnviado.replace(/\D+/g, '')
+    });
+}
 
-console.log(cal);
+const cpf = new ValidaCpf('705.484.450-52');
+console.log(cpf);
