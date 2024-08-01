@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-cor: #568374;
+    --form-cor: #fff;
+    --btn-cor: #006443;
+    --error-txt: #bd2222;
+    --txt: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: var(--txt);
+    background-color: var(--bg-cor);
+}
+
+#conteiner {
+    margin: auto;
+    width: 96dvh;
+}
+
+.cadastro {
+    background-color: var(--form-cor);
+    margin: 7rem;
+    padding: 2rem;
+}
+
+.cadastro>h1,
+ul {
+    margin-block: 0.75rem;
+}
+
+.cadastro>h1{
+    font-size: 2.5rem;
+}
+
+.cadastro>ul{
+    padding-inline: 2rem;
+}
+
+#form {
+    display: grid;
+    gap: 0.5rem;
+}
+
+#form > .text-user {
+    font-size: 1.1rem;
+    padding: 0.25rem;
+}
+
+#form > .btn-submit {
+    width: 112px;
+    background-color: var(--btn-cor);
+    color: var(--form-cor);
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 0.25rem;
+    margin-top: 1.25rem;
+}
+
+#form > .error-text {
+    color: var(--error-txt);
+    font-size: 0.75rem;
+}
