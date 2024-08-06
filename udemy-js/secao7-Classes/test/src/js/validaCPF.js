@@ -45,10 +45,10 @@ class ValidaCPF {
     }
 }
 
-let cpf = new ValidaCPF('187.596.300-60');
+// let cpf = new ValidaCPF();
 
-if (cpf.valida()) {
-    console.log('CPF válido');
-} else {
-    console.log('CPF inválido');
-}
+// if (cpf.valida()) {
+//     console.log('CPF válido');
+// } else {
+//     console.log('CPF inválido');
+// }
