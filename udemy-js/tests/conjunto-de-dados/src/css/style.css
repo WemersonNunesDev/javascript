@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: yellowgreen;
+    cursor: pointer;
+    width: 216px;
+}
+
+.btn::before {
+    content: 'GERAR';
+    font-weight: 800;
+}
+
+.btn:hover {
+    color: #fff;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.resultado {}
