@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+    margin: auto;
+    max-width: 1216px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-main {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.container-main > h1 {
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.container-main .on-off {
+    background-color: rgb(224, 204, 243);
+    padding: 8px 16px;
+    border: none;
+}
+
+.container-main .on-off::before {
+    content: 'Dados';
+}
