@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "Miguel",
+        "email": "miguel@email.com.br",
+        "salario": 3500,
+        "estado": "RJ",
+        "empresa": "Facebook",
+        "idade": "24",
+        "Sexo": "M",
+        "cpf": "362.418.524-18"
+    }
+]
