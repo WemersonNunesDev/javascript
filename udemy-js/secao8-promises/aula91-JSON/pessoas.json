@@ -2,11 +2,21 @@
     {
         "nome": "Miguel",
         "email": "miguel@email.com.br",
-        "salario": 3500,
+        "salario": 3500.00,
         "estado": "RJ",
         "empresa": "Facebook",
         "idade": "24",
         "Sexo": "M",
+        "cpf": "362.418.524-18"
+    },
+    {
+        "nome": "Alice",
+        "email": "alice@email.com.br",
+        "salario": 2162.00,
+        "estado": "RJ",
+        "empresa": "Facebook",
+        "idade": "22",
+        "Sexo": "F",
         "cpf": "362.418.524-18"
     }
 ]
